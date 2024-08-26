@@ -1,4 +1,4 @@
-# AWS Security Group, NACL, Internet Gateway, Public Subnet, and EC2 Configuration
+## AWS Security Group, NACL, Internet Gateway, Public Subnet and EC2
 Overview: This project involved configuring a secure AWS environment using Security Groups, Network ACLs (NACLs), an Internet Gateway, a Public Subnet, and EC2 instances. The goal was to establish a secure, accessible, and scalable infrastructure.
 
 *Components*
@@ -14,5 +14,6 @@ A public subnet was created within the VPC, allowing the deployment of EC2 insta
 
 - Network ACLs: NACLs were set up at the subnet level to further control inbound and outbound traffic. These rules provided an additional stateless firewall mechanism, offering an extra layer of security by defining both allow and deny rules for traffic entering or leaving the public subnet.
 
+![Archtecture_Digrame](Arc_Security_NACL_Peoject_.jpg)
+
 *This project involved configuring AWS Security Groups (SGs) and Network Access Control Lists (NACLs) to enhance the security of an AWS infrastructure using EC2.* 
-![Archtecture_Digrame]()
